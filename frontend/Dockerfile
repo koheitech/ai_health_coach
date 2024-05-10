@@ -9,7 +9,6 @@ RUN apt-get update -y && \
   apt-get upgrade -y && \
   npm install npm && \
   npm install nuxt && \
-  npm install create-nuxt-app && \
   npm install defu
 
 ADD . /app
